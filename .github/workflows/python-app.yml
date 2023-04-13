@@ -55,7 +55,7 @@ jobs:
      #   with:
         #  name: logs
        #   path: logs.txt
-    #  -  name: upload to tele via api
+    #1  -  name: upload to tele via api
      #    continue-on-error: true
       #   run: |
         #  curl -F document=@logs.txt -F chat_id=${{ secrets.TELEGRAM_CHAT_ID }} https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendDocument
